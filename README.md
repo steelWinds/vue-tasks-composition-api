@@ -4,8 +4,14 @@
 
 This simple tasks-list with **Vue** framework on version **3**, with **Vite** builder.
 
-[Vite](https://vitejs.dev/)
-[Vue](https://v3.ru.vuejs.org/)
+You can see it - [Vue-Tasks](https://steelwinds.github.io/vue-tasks-composition-api/)
+
+## About the project
+
+### Build With
+
+- [**Vite**](https://vitejs.dev/)
+- [**Vue-3**](https://v3.ru.vuejs.org/)
 
 ## Getting Started
 
