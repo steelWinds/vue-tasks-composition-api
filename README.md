@@ -1,3 +1,5 @@
+[GitHub workflow status](https://img.shields.io/github/workflow/status/steelWinds/vue-tasks-composition-api/Deploy-Action)
+
 # Tasks list on CompositionAPI with Vite
 
 This simple tasks-list with **Vue** framework on version **3**, with **Vite** builder.
