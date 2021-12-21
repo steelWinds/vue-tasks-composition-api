@@ -6,14 +6,20 @@ let createTasksList = (startValue) => {
     }
 
     const tasks = ref(startValue);
-    const taskContent = '';
+    const taskContent = ref('');
 
     let addTask = (task) => {
+        if (task.length === 0) {
+            return;
+        }
+
         let taskObject = {
             content: task
         };
 
         tasks.value.push(taskObject);
+
+        taskContent.value = '';
     };
 
     let removeTask = (taskId) => {

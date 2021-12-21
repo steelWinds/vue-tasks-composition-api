@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { toRef, computed } from 'vue';
+import { toRefs, computed } from 'vue';
 
 export default {
     props: {
@@ -22,11 +22,11 @@ export default {
     ],
 
     setup(props, { emit, attrs }) {
-        const { valueModel } = props;
+        const { valueModel } = toRefs(props);
 
         const model = computed({
             get() {
-                return valueModel;
+                return valueModel.value;
             },
 
             set(value) {
