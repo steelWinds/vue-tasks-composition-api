@@ -19,7 +19,6 @@
 import MaterialButton from './MaterialButton.vue';
 
 export default {
-
     components: {
         MaterialButton
     },

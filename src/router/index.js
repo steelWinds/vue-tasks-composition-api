@@ -19,9 +19,11 @@ let routes = [
     }
 ];
 
+const historyPath = import.meta.env.DEV ? '/' : '/vue-tasks-composition-api/';
+
 const router = createRouter({
     routes,
-    history: createWebHistory('/vue-tasks-composition-api/'),
+    history: createWebHistory(historyPath),
     scrollBehavior() {
         return new Promise(resolve => {
             setTimeout(() => {

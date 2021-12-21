@@ -22,8 +22,6 @@ export default {
     ],
 
     setup(props, { emit, attrs }) {
-        console.log(props);
-
         const { valueModel } = props;
 
         const model = computed({
