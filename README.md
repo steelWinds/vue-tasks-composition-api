@@ -1,4 +1,4 @@
-[GitHub workflow status](https://img.shields.io/github/workflow/status/steelWinds/vue-tasks-composition-api/Deploy-Action)
+![Github workflow status](https://img.shields.io/github/workflow/status/steelWinds/vue-tasks-composition-api/Deploy-Action)
 
 # Tasks list on CompositionAPI with Vite
 
