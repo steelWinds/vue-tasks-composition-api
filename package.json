@@ -1,11 +1,11 @@
 {
-  "type": "module",
   "name": "vue-learning",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.js src/**/*.vue"
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",

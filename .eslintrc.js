@@ -7,6 +7,8 @@ module.exports = {
         'plugin:vue/vue3-recommended',
     ],
     rules: {
+        'vue/multi-word-component-names': 'off',
+        'vue/no-setup-props-destructure': 'off',
         'vue/html-indent': ['error', 4],
         'vue/multiline-html-element-content-newline': 'off',
         'vue/html-closing-bracket-newline': 'off',
