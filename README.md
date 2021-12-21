@@ -21,13 +21,13 @@ npm i pnpm
 git clone https://github.com/steelWinds/vue-tasks-composition-api
 ```
 
-2. Install packages
+2. Install **NPM** packages
 
 ```
 pnpm i
 ```
 
-3. Run dev-server
+3. Run **vite** dev-server
 
 ```
 pnpm vite
