@@ -13,13 +13,12 @@ This simple tasks-list with **Vue** framework on version **3**, with **Vite** bu
 npm i pnpm
 ```
 
-### Install project
+### Install project and run dev-server
 
 1. Clone repo
 
 ```
 git clone https://github.com/steelWinds/vue-tasks-composition-api
-
 ```
 
 2. Install packages
