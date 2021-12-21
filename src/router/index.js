@@ -21,7 +21,7 @@ let routes = [
 
 const router = createRouter({
     routes,
-    history: createWebHistory('/'),
+    history: createWebHistory('/vue-tasks-composition-api/'),
     scrollBehavior() {
         return new Promise(resolve => {
             setTimeout(() => {
