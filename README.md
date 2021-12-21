@@ -27,7 +27,7 @@ git clone https://github.com/steelWinds/vue-tasks-composition-api
 pnpm i
 ```
 
-3. Run **vite** dev-server
+3. Run **Vite dev-server**
 
 ```
 pnpm vite
