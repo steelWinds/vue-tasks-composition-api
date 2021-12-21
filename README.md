@@ -1,7 +1,45 @@
-# Vue 3 + Vite
+# Tasks list on CompositionAPI with Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This simple tasks-list with **Vue** framework on version **3**, with **Vite** builder.
 
-## Recommended IDE Setup
+[Vite](https://vitejs.dev/)
+[Vue](https://v3.ru.vuejs.org/)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Getting Started
+
+### Install pnpm
+
+```
+npm i pnpm
+```
+
+### Install project
+
+1. Clone repo
+
+```
+git clone https://github.com/steelWinds/vue-tasks-composition-api
+
+```
+
+2. Install packages
+
+```
+pnpm i
+```
+
+3. Run dev-server
+
+```
+pnpm vite
+```
+
+***All cli-commands you can see in package.json file***
+
+## License 
+
+This test-project have not license
+
+## Authors
+
+[Kirill](https://github.com/steelWinds)
