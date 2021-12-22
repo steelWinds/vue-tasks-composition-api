@@ -1,5 +1,7 @@
 import { ref } from 'vue';
 
+import LocalStorage from './localStorageAPI.js';
+
 let createTasksList = (startValue) => {
     if ( !(startValue instanceof Array) ) {
         throw new Error('startValue is not Array type!');
@@ -19,11 +21,15 @@ let createTasksList = (startValue) => {
 
         tasks.value.push(taskObject);
 
+        LocalStorage.set('tasks-list', tasks.value);
+
         taskContent.value = '';
     };
 
     let removeTask = (taskId) => {
         tasks.value.splice(taskId, 1);
+
+        LocalStorage.set('tasks-list', tasks.value);
     };
 
     return {

@@ -53,6 +53,7 @@
 <script>
 import createRouter from '../composables/createRouter.js';
 import createTasksList from '../composables/createTasksList.js';
+import LocalStorage from '../composables/localStorageAPI.js';
 
 import MaterialButton from '../components/MaterialButton.vue';
 import MaterialInput from '../components/MaterialInput.vue';
@@ -66,6 +67,8 @@ export default {
     },
 
     setup() {
+        const startTasks = LocalStorage.get('tasks-list');
+
         const {
             goRoute,
             router, 
@@ -77,11 +80,7 @@ export default {
             addTask,
             removeTask,
             taskContent
-        } = createTasksList([
-            {
-                content: `i'm task`
-            }
-        ]);
+        } = createTasksList(startTasks);
 
         return {
             goRoute, 
